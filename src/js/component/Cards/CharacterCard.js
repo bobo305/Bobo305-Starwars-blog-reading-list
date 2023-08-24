@@ -14,7 +14,7 @@ const CharacterCard = (props) => {
           props.id + 1
         }.jpg`}
         className="card-img-top"
-        alt="..."
+        alt="image of characters"
         style={{ width: "300px", height: "auto", borderRadius: "5px" }}
       />
       <div className="card-body">

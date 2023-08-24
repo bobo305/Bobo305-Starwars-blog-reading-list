@@ -9,11 +9,12 @@ const PlanetsCard = (props) => {
   return (
     <div className="card bg bg-secondary" style={{ width: "18rem" }}>
       <img
+      //Tatooine is not working 
         src={`https://starwars-visualguide.com/assets/img/planets/${
           props.id + 1
         }.jpg`}
         className="card-img-top"
-        alt="..."
+        alt="image of plantes "
         style={{ borderRadius: "5px" }}
       />
       <div className="card-body">

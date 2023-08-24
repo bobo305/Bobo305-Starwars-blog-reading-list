@@ -9,9 +9,10 @@ const VehiclesCard = (props) => {
   return (
     <div className="card bg bg-secondary">
       <img
-        src={`https://starwars-visualguide.com/assets/img/vehicles/6.jpg`}
+      //only able to load one type of starship t0 display any other images gets lost 
+        src={`https://starwars-visualguide.com/assets/img/vehicles/14.jpg`}
         className="card-img-top"
-        alt="Should be a StarShip Image"
+        alt="StarShip Image"
         style={{ width: "350px", height: "auto", borderRadius: "5px" }}
       />
       <div className="card-body">

@@ -163,6 +163,7 @@ export const VehiclesView = () => {
         <div className="col text-center">
           <img
             className="displayedImage border border-warning border-4 border-opacity-50"
+            //only able to load one type of starship t0 display any other images gets lost 
             src={"https://starwars-visualguide.com/assets/img/vehicles/4.jpg"}
           />
         </div>
